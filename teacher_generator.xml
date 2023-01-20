@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".TeacherGenerator">
+
+    <ImageView
+        android:id="@+id/iv_qr"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+         />
+
+
+    <EditText
+        android:id="@+id/edit_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_qr"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="20dp"
+        android:hint="INSERT ATTENDANCE FORM HERE"
+        android:textColorHint="#8F8F8F"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/bt_generate"
+        android:layout_width="391dp"
+        android:layout_height="69dp"
+        android:layout_below="@id/edit_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="20dp"
+        android:hint="GENERATE QR"
+        android:textColorHint="#FFFFFF"
+        />
+
+</RelativeLayout>
